@@ -15,7 +15,7 @@ spring:
     name: STOCK-PRICE
   datasource:
     password: Vij@y0301
-    url: jdbc:mysql:///MySecondDB
+    url: jdbc:mysql://localhost:3306/MySecondDB
     username: root
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
